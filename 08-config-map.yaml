@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: bnsaws
+data:
+  course: "DevOps with AWS"
+  trainer: "narayana"
+  github: "https://github.com/narayana6/k8-resources"

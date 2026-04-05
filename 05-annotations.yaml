@@ -1,0 +1,14 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: annotations
+  labels:
+    course: k8
+    trainer: narayana
+  annotations:
+    kubernetes.io/created-by: 'narayana'
+    jenkins.build.url: 'https://jenkins.bnsaws.online/expense/job/backend/54'
+spec:
+  containers:
+  - name: nginx
+    image: nginx
